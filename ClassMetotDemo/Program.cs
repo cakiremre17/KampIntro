@@ -32,6 +32,18 @@ namespace ClassMetotDemo
             musteriManager.Ekle(musteri3);
 
 
+            Musteri[] musteriler = new Musteri[] { musteri1, musteri2, musteri3 };
+
+            foreach (Musteri mliste in musteriler)
+            {
+                Console.WriteLine("Müşteri adı : " + mliste.Ad);
+                Console.WriteLine("Müşteri Soyadı : " + mliste.Soyadi);
+                Console.WriteLine("Müşteri Yaş : " + mliste.Yas);
+                Console.WriteLine("Müşteri Boy: " + mliste.Boy);
+
+            }
+
+
 
 
         }
